@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photo Album</title>
+    <meta charset="UTF-8">
+    <script src="photo_album.js"></script>
+    <link rel="stylesheet" type="text/css" href="photo_album.css">
+  </head>
+  <body>
+    <div id="content">
+      <h1>Photo Album</h1>
+      <h4>by Sean Morton</h4>
+      <p id="no_photos">No photos. Upload some!</p>
+      <table id="viewer" style="display: none;">
+        <thead>
+          <tr>
+            <th class="prev">
+            <th class="photo">
+            <th class="next">
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><button id="prev_photo" style="display: none;">Previous</button></td>
+            <td><img id="current_photo" src=""></td>
+            <td><button id="next_photo" style="display: none">Next</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+        <p><input type="file" id="uploader" accept="image/*" multiple /></p>
+      </div>
+      </div>
+    <div>
+  </body>
+</html>
