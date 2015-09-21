@@ -1,0 +1,27 @@
+#content {
+  width: 80%;
+  margin: 0 auto;
+}
+#viewer {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+}
+#viewer td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.prev {
+  width: 10%;
+}
+.next {
+  width: 10%;
+}
+.photo {
+  width: 80%;
+}
+#current_photo {
+  width: 100%;
+}
